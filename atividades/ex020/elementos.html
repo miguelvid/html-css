@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: justify;
+            font-size: 20px;
+        }
+        a{
+            color: blueviolet;
+            text-decoration: none;
+        }
+        a:visited{
+            color: darkslategray;
+        }
+        a:hover{
+            text-decoration: underline;
+            font-weight: bold;
+            color: rgb(61, 143, 143);
+        }
+        a:active{
+            color:rgb(91, 212, 212);
+        }
+        a::after{
+            content:'[link]';
+            font-weight: 100;
+            font-size: small;
+            color: rgb(31, 44, 44);
+
+        }
+
+        
+    </style>
+</head>
+<body>
+    <h1>Personalizando Links</h1>
+    <ul>
+        <li><a href="https://www.youtube.com/channel/UC8xqCogRyVe_SsZBkQUvUYQ" target="_blank" rel="exterior">YouTube</a></li>
+        <li><a href="https://steamcommunity.com/profiles/76561198312649469/" target="_blank">Steam</a></li>
+        <li><a href="https://www.instagram.com/vidorzinho.con/" target="_blank">Instagram</a></li>
+        <li><a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwimxoqgrd-AAxV-vJUCHVb_BR0QFnoECCcQAQ&url=https%3A%2F%2Fwww.fcbarcelona.com%2F&usg=AOvVaw1kBHgMzc9cUZyB0zZ7YM-q&opi=89978449" target="_blank">Barcelona</a></li>
+    </ul>
+    
+</body>
+</html>

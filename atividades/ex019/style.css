@@ -1,0 +1,44 @@
+@charset "UTF-8";
+
+body{
+    @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+    font-family: 'Roboto Condensed', sans-serif;
+    text-align: justify
+
+}
+
+h1#t1{
+    @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+    font-family: 'Roboto Condensed', sans-serif;
+    color: aqua;
+    background-color: blue;
+    font-style: normal;
+    width: 90px;
+    
+}
+h1#t2{
+    @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+    font-family: 'Roboto Condensed', sans-serif;
+    color: aqua;
+    background-color: rgb(27, 27, 161);
+    font-style: normal;
+    width: 90px;
+    
+}
+h1#t3{
+    @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+    font-family: 'Roboto Condensed', sans-serif;
+    color: aqua;
+    background-color: rgb(33, 33, 85);
+    font-style: normal;
+    width: 90px;
+    
+}
+
+.sub{
+    @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+    font-family: 'Roboto Condensed', sans-serif;
+    color: grey;
+    font-style: italic;
+
+}
