@@ -1,0 +1,115 @@
+@charset "UTF-8";
+
+@font-face {
+
+    font-family: 'grafite';
+    src: url('DonGraffiti.otf') format('opentype');
+    font-weight: normal;
+}
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    max-height: 100vh;
+    background-color: darkgray;
+
+}
+
+header {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+header > h1 {
+     font-variant: small-caps;
+     padding-top: 50px;
+     font-family: grafite;
+     font-size: 8vw;
+     font-weight: lighter;
+    
+    
+}
+
+header > p {
+    padding-bottom: 50px;
+    padding-top: 10px;
+    font-family: grafite;
+   font-weight: lighter;
+   font-size: 18px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14 px;
+    
+
+}
+
+header a:hover {
+    text-decoration: underline;
+    background-color: rgba(235, 233, 233, 0.363);
+    padding: 5px;
+    border-radius: 5px;
+    
+    
+
+}
+section{
+    background-color: white;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    padding-left: 30px;
+    font-family: 'Sriracha', cursive;
+    font-size: 20px;
+    
+}
+section > p {
+    width: 400px;
+   
+}
+
+section#img1 {
+    background-color: blueviolet;
+    background-image: url(imagens/Grafite-urbano-2.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+section#img2 {
+    background-color: blueviolet;
+    background-image: url(imagens/jesus-preto.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+section.img > p {
+    background-color: rgba(14, 14, 14, 0.308);
+    width: 400px;
+    padding: 10px;
+    border-radius: 10px;
+    color: aliceblue;
+}
+
+footer {
+    background-color: black;
+    text-align: center;
+    padding: 10px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+} 
+
+footer a:hover {
+    text-decoration: underline;
+
+}
